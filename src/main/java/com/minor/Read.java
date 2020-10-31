@@ -11,7 +11,7 @@ public class Read
   // double backquote is to avoid compiler interpret words 
   // like \test as \t (ie. as a escape sequence) 
 	  
-  File file = new File("C:\\Users\\AMAN GUPTA\\Enterprise_java\\lib\\src\\main\\webapp\\Book_Data\\library.csv"); 
+  File file = new File("src\\main\\webapp\\Book_Data\\library.csv"); 
   Hashtable<String, String> 
   hm = new Hashtable<String, String>(); 
   BufferedReader br = new BufferedReader(new FileReader(file)); 
